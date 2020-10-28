@@ -1,0 +1,36 @@
+{
+  "name": "frisbytestframework",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Frisby Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "frisby",
+    "javascript",
+    "api-automation",
+    "test-framework"
+  ],
+  "author": "Esha Mattoo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "frisby": "^2.1.3",
+    "jest": "^26.4.2",
+    "jest-html-reporter": "^3.2.0"
+  },
+  "transform": {
+    "//.js$": "C:/Users/EshaVeenish/Desktop/Veenish/nodejs/nodeproject/frisby-test-framework-master/frisby-test-framework-master/node_modules/babel-jest"
+  },
+  "dependencies": {
+    "qs": "^6.9.4"
+  }
+}
